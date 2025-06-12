@@ -3,7 +3,7 @@ const routerBase =
   process.env.DEPLOY_ENV === "GH_PAGES"
     ? {
         router: {
-          base: "/medtech-heart/",
+          base: "/my-heart/",
         },
       }
     : {
@@ -18,7 +18,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     //titleTemplate: '%s - medtech-heart-vue',
-    title: "MedTech Heart",
+    title: "My Heart",
     htmlAttrs: {
       lang: "en",
     },
